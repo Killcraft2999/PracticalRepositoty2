@@ -10,6 +10,10 @@
                 result = num1 + num2;
                 break;
 
+            case "s":
+                result = num1 - num2;
+                break;
+
             default:
                 break;
         }
@@ -54,6 +58,7 @@ class Program
 
             Console.WriteLine("Choose an operator from the following list:");
             Console.WriteLine("\ta - Add");
+            Console.WriteLine("\ts - Subtract");
             Console.Write("Your option? ");
 
             string op = Console.ReadLine();
