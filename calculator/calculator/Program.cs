@@ -18,6 +18,14 @@
                 result = num1 * num2;
                 break;
 
+            case "d":
+
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                }
+                break;
+
             default:
                 break;
         }
@@ -64,6 +72,7 @@ class Program
             Console.WriteLine("\ta - Add");
             Console.WriteLine("\ts - Subtract");
             Console.WriteLine("\tm - Multiply");
+            Console.WriteLine("\td - Divide");
             Console.Write("Your option? ");
 
             string op = Console.ReadLine();
