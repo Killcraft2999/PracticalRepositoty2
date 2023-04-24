@@ -48,7 +48,7 @@ class Program
             string numInput2 = "";
             double result = 0;
 
-            Console.Write("Type a number, and then press Enter: ");
+            Console.Write("Write another number, and then press Enter: ");
             numInput1 = Console.ReadLine();
 
             double cleanNum1 = 0;
